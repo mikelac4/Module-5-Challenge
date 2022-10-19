@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
 
     function hourUpdater() {
-        // get current number of hours (preferably with moment.js)
+        // get current number of hours 
         var currentHour = moment().hours();
 
         // loop over time blocks
