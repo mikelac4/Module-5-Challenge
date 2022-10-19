@@ -12,6 +12,7 @@ $(document).ready(function () {
         localStorage.setItem(time, value)
 
         // Show notification that item was saved to localStorage by adding class 'show'
+        // $('.notification').addClass('show');
 
         // Timeout to remove 'show' class after 5 seconds
         setTimeout(function () {
@@ -60,5 +61,5 @@ $(document).ready(function () {
 
 
     // display current day on page
-    $('#currentDay').text(moment().format('dddd. MMMM Do'));
+    $('#currentDay').text(moment().format('dddd. MMMM Do YYYY'));
 });
